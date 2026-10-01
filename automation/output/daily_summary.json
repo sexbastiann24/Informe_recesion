@@ -9,18 +9,18 @@
     "PPIACO_YOY (last: 2026-08)",
     "HOUST_YOY (last: 2026-08)"
   ],
-  "ensemble_probability": 9.44,
+  "ensemble_probability": 9.41,
   "bic_probability": 15.72,
   "ci_lower": 9.18,
   "ci_upper": 21.12,
   "signal": "LOW",
-  "consensus": "STRONG",
+  "consensus": "MODERATE",
   "model_probabilities": {
     "NY Fed (Spread Only)": 13.04,
     "Wright (Spread + FF)": 8.21,
     "BIC-Selected": 15.72,
     "Estrella-Mishkin": 9.47,
-    "Chauvet-Piger": 0.76
+    "Chauvet-Piger": 0.62
   },
   "bic_selected_features": [
     "SPREAD",
