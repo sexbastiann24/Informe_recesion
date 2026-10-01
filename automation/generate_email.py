@@ -406,7 +406,7 @@ def send_email(subject, html_body, summary):
         with smtplib.SMTP("smtp.gmail.com", mail_port) as server:
             server.starttls()
             server.login(mail_username, mail_password)
-            server.sendmail(mail_username, recipients, msg.as_string())
+            server.send_message(msg, from_addr=mail_username, to_addrs=recipients)
         print(f"Email sent to {recipients}")
     except Exception as e:
         print(f"Email send failed: {e}")
